@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700&display=swap');
+
+@mixin montserrat_regular {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+@mixin montserrat_medium {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+@mixin montserrat_semibold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+@mixin montserrat_bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+@mixin arvo_regular {
+  font-family: "Arvo", sans-serif;
+  font-weight: 400;
+}
+
+@mixin arvo_bold {
+  font-family: "Arvo", sans-serif;
+  font-weight: 700;
+}

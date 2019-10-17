@@ -1,0 +1,12 @@
+@import './fonts.scss';
+@import './colors.scss';
+@import './variables.scss';
+@import './mixins.scss';
+html, body{
+    margin: 0;
+    padding: 0;
+    @include montserrat_regular;
+    font-size: 14px;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
