@@ -131,6 +131,7 @@ module.exports = () => {
         template: path.resolve(__dirname, 'index.html'),
         // where to put the generated file
         path: distDir,
+        favicon: './src/assets/favicon.ico',
         // the output file name
         filename: 'index.html',
         files: {
